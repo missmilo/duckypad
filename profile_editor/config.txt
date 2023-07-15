@@ -2,16 +2,16 @@ REM_BLOCK DOCUMENTATION
 Row 1
 END_REM
 
-z1
-z2
+z1 s li e
+z2 s li s
 z3 next>
 
 REM_BLOCK DOCUMENTATION
 Row 2
 END_REM
 
-z4
-z5
+z4 s pw
+z5 s nw
 z6
 
 
@@ -19,8 +19,8 @@ REM_BLOCK DOCUMENTATION
 Row 2
 END_REM
 
-z7
-z8
+z7 ^ pw
+z8 ^ nw
 z9
 
 REM_BLOCK DOCUMENTATION
