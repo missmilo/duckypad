@@ -2,43 +2,42 @@ REM_BLOCK DOCUMENTATION
 Row 1
 END_REM
 
-z1 cut
-z2 copy
-z3 paste
+z1 undo
+z2 scratch
+z3 redo
 
 REM_BLOCK DOCUMENTATION
 Row 2
 END_REM
 
-z4 s pw
-z5
-z6 s nw
+z4 cut
+z5 copy
+z6 paste
 
 
 REM_BLOCK DOCUMENTATION
 Row 2
 END_REM
 
-z7 ^ pw
+z7 dupe |
 z8
-z9 ^ nw
+z9 del |
 
 REM_BLOCK DOCUMENTATION
 Row 3
 END_REM
 
-z10 s | st
-z11
-z12 s | end
+z10 start
+z11 save
+z12 end
 
 REM_BLOCK DOCUMENTATION
 Row 3
 END_REM
 
-z13 undo
-z14 redo
+z13 t case
+z14 src
 z15 term>
-
 
 
 BG_COLOR 40 17 255
