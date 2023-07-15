@@ -1,0 +1,68 @@
+REM_BLOCK DOCUMENTATION
+Row 1
+1. Caret to previous word
+2.
+3. Caret to next word
+END_REM
+
+z1 ^ pw
+z2
+z3 ^ nw
+
+REM_BLOCK DOCUMENTATION
+Row 2
+4. Select previous word
+5. Delete selection
+6. Select next word
+END_REM
+
+z4 s pw
+z5 delete
+z6 s nw
+
+
+REM_BLOCK DOCUMENTATION
+Row 3
+7. Select right
+8. Select all
+9. Select left
+END_REM
+
+z7 s right
+z8 s all
+z9 s left
+
+REM_BLOCK DOCUMENTATION
+Row 4
+10. Select line, move caret to start
+11. Select down
+12. Select line, move caret to end
+END_REM
+
+z10 s | st
+z11 s down
+z12 s | end
+
+REM_BLOCK DOCUMENTATION
+Row 5
+13.
+14.
+15. Move caret to terminal
+END_REM
+
+z13
+z14
+z15 term>
+
+
+
+BG_COLOR 40 17 255
+SWCOLOR_1 160 0 255
+SWCOLOR_2 160 0 255
+SWCOLOR_3 160 0 255
+SWCOLOR_4 160 0 255
+SWCOLOR_5 160 0 255
+SWCOLOR_6 160 0 255
+SWCOLOR_11 255 38 0
+SWCOLOR_13 0 207 0
+SWCOLOR_15 0 252 255

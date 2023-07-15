@@ -2,17 +2,17 @@ REM_BLOCK DOCUMENTATION
 Row 1
 END_REM
 
-z1 s li e
-z2 s li s
-z3 next>
+z1 cut
+z2 copy
+z3 paste
 
 REM_BLOCK DOCUMENTATION
 Row 2
 END_REM
 
 z4 s pw
-z5 s nw
-z6
+z5
+z6 s nw
 
 
 REM_BLOCK DOCUMENTATION
@@ -20,24 +20,24 @@ Row 2
 END_REM
 
 z7 ^ pw
-z8 ^ nw
-z9
+z8
+z9 ^ nw
 
 REM_BLOCK DOCUMENTATION
 Row 3
 END_REM
 
-z10
+z10 s | st
 z11
-z12
+z12 s | end
 
 REM_BLOCK DOCUMENTATION
 Row 3
 END_REM
 
-z13
-z14
-z15
+z13 undo
+z14 redo
+z15 term>
 
 
 
