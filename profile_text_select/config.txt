@@ -23,9 +23,9 @@ z6 s nw
 
 REM_BLOCK DOCUMENTATION
 Row 3
-7. Select right
+7. Select left
 8. Select all
-9. Select left
+9. Select right
 END_REM
 
 z7 s right
